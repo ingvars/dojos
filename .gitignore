@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.cache
+*.dll
+*.pdb
+*.xml
+*.props
+*.targets
+*.nupkg
+/FizzBuzz/Tests/FizzBuzz.UnitTests/obj/Debug
+*.suo
+/FizzBuzz/.vs/FizzBuzz/v15/Server/sqlite3
+/FizzBuzz/FizzBuzz/obj/Debug
+/FizzBuzz/packages/NUnit.3.9.0
