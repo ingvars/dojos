@@ -14,3 +14,5 @@
 /FizzBuzz/.vs/FizzBuzz/v15/Server/sqlite3
 /FizzBuzz/FizzBuzz/obj/Debug
 /FizzBuzz/packages/NUnit.3.9.0
+*.exe
+/FizzBuzz/FizzBuzz/bin/Debug/FizzBuzz.exe.config
