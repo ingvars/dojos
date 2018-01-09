@@ -1,4 +1,6 @@
-﻿namespace FizzBuzz
+﻿using System;
+
+namespace FizzBuzz
 {
     class Program
     {
@@ -8,8 +10,10 @@
 
             for (int i=1; i<100; i++)
             {
-                
+                Console.WriteLine(fizzBuzzEvaluator.EvaluateNumber(i));
             }
+
+            Console.ReadLine();
         }
     }
 }

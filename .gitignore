@@ -16,3 +16,4 @@
 /FizzBuzz/packages/NUnit.3.9.0
 *.exe
 /FizzBuzz/FizzBuzz/bin/Debug/FizzBuzz.exe.config
+/FizzBuzz/Tests/FizzBuzz.UnitTests/bin/Debug/FizzBuzz.exe.config
