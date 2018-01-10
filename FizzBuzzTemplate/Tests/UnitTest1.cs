@@ -1,12 +1,13 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 
-namespace Tests
+namespace FizzBuzz.UnitTests
 {
     [TestFixture]
     public class UnitTest1
     {
         [Test]
-        public void TestMethod1()
+        public void FunctionUnderTest_UnderCondition_ExpectedResult()
         {
         }
     }
