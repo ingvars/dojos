@@ -17,3 +17,6 @@
 *.exe
 /FizzBuzz/FizzBuzz/bin/Debug/FizzBuzz.exe.config
 /FizzBuzz/Tests/FizzBuzz.UnitTests/bin/Debug/FizzBuzz.exe.config
+/BowlingGame/BowlingGame/bin/Debug
+/BowlingGame/BowlingGame/obj/Debug
+/BowlingGame/BowlingGame.UnitTests/obj/Debug
