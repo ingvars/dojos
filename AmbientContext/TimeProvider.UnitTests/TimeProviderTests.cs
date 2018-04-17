@@ -12,7 +12,7 @@ namespace TimeProvider.UnitTests
         {
             DateTime now = TimeProvider.Current.Now;
 
-            DateTime.Now.ShouldBeGreaterThan(now);
+            DateTime.Now.AddSeconds(1).ShouldBeGreaterThan(now);
         }
 
         [Test]

@@ -28,3 +28,6 @@
 /AmbientContext/TimeProvider.UnitTests/bin/Debug
 /AmbientContext/TimeProvider.UnitTests/FluentAssert.Provenance.txt
 /AmbientContext/TimeProvider.UnitTests/FluentAssert.License.txt
+/Packages/NUnit.3.10.1
+/Packages/FluentAssert.1.0.0.11/content
+/Packages/NUnit.2.6.4/license.txt
