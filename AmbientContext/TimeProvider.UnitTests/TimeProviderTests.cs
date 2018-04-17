@@ -1,20 +1,21 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
+using FluentAssert;
+using System;
 
 namespace TimeProvider.UnitTests
 {
-    [TestClass]
+    [TestFixture]
     public class TimeProviderTests
     {
-        [TestMethod]
+        [Test]
         public void Now_ProviderHasNotBeenExplicitlySet_ReturnsDateTimeNow()
         {
             DateTime now = TimeProvider.Current.Now;
 
-            Assert.IsTrue(now.AddSeconds(10) > DateTime.Now);
+            DateTime.Now.ShouldBeGreaterThan(now);
         }
 
-        [TestMethod]
+        [Test]
         public void Now_ProviderHasBeenSet_ReturnsDateTimeInFuture()
         {
             var dateTime = new DateTime(2019, 2, 15, 8, 46, 13);
@@ -22,8 +23,8 @@ namespace TimeProvider.UnitTests
             TimeProvider.Current = new FakeTimeProvider(dateTime);
             DateTime now = TimeProvider.Current.Now;
 
-            Assert.AreEqual(dateTime, now);
-
+            dateTime.ShouldBeEqualTo(now);
+            
             TimeProvider.ResetToDefault();
         }
     }
